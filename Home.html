@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Galapagos Islands Interactive Exhibit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background:rgb(248, 241, 180)">
+
+<div class="jumbotron text-center" style="margin-bottom:0; background:url(./Galapagos\ Pictures/seaturtle.jpg); height: 250px">
+  <h1 style="color:ghostwhite; text-shadow:black 2px 2px;">WELCOME TO THE GALAPAGOS ISLANDS</h1>
+  <p style="color:ghostwhite; text-shadow:black 2px 2px;">An Interactive Exhibit</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <a class="navbar-brand" href="#">Welcome to the Galapagos Islands</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <!--Nav bar holds dropdown menus for Archipelago, Darwin, and Endemic Species-->
+    <ul class="navbar-nav">
+        <!--Dropdown menu for Archipelago section, containing all the islands-->
+        <li class="nav-item dropdown"><button class="btn btn secondary dropdown-toggle" type="button" id="dropdownArchipelago" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Archipelago</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownArchipelago">
+                <a class="dropdown-item" href="#">Baltra and Santa Cruz</a>
+                <a class="dropdown-item" href="#">Morchena</a>
+                <a class="dropdown-item" href="#">Genoversa</a>
+                <a class="dropdown-item" href="#">Santiago</a>
+                <a class="dropdown-item" href="#">Española</a>
+                <a class="dropdown-item" href="#">Pinzon</a>
+                <a class="dropdown-item" href="#">Isabela</a>
+                <a class="dropdown-item" href="#">Pinta</a>
+                <a class="dropdown-item" href="#">San Cristobal</a>
+                <a class="dropdown-item" href="#">Floreana</a>
+                <a class="dropdown-item" href="#">Santa Fe</a>
+                <a class="dropdown-item" href="#">Fernandina</a>
+            </div>
+        </li>
+        <!--Dropdown menu for Darwin Section-->
+        <li class="nav-item dropdown"><button class="btn btn secondary dropdown-toggle" type="button" id="dropdownDarwin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Charles Darwin</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownDarwin">
+                <a class="dropdown-item" href="#">Biography</a>
+                <a class="dropdown-item" href="#">Darwin's Voyage</a>
+            </div>
+        </li>
+        <!--Dropdown menu for Endemic Species section-->
+        <li class="nav-item dropdown"><button class="btn btn secondary dropdown-toggle" type="button" id="dropdownSpecies" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Endemic Species</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownSpecies">
+                <a class="dropdown-item" href="./Species.html/#reptiles">Reptiles</a>
+                <a class="dropdown-item" href="#">Birds</a>
+                <a class="dropdown-item" href="#">Mammals</a>
+                <a class="dropdown-item" href="#">Marine Life</a>
+            </div>
+        </li>
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Information</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <!--Homepage Information-->
+    <div class="col-sm-8">
+        <h5>THE GALAPAGOS ISLANDS</h5>
+        <p>The Galápagos Islands (official name: Archipiélago de Colón), part of the Republic of Ecuador, are an archipelago of volcanic islands distributed on either side of the equator in the Pacific Ocean, 906 km west of continental Ecuador</p>
+        <p>The Islands are known for their large number of endemic species and were studied by Charles Darwin during the second voyage of the HMS Beagle</p>
+        <P>The islands and their surrounding waters form the Galápagos Province of Ecuador, the Galápagos National Park, and the Galápagos Marine Reserve. The principle language on the island in Spanish, and the islands have a population of slightly over 25,000</P>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
