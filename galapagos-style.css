@@ -1,0 +1,97 @@
+.nav-pills li {
+    border-radius:5px;
+    padding:0;
+    border: none;
+    background:transparent;
+    margin-left:5px;
+}
+
+.nav-pills li :hover {
+    background:rgb(11, 11, 247);
+    border-color:rgb(11, 11, 247);
+}
+
+li a {
+    display:block;
+    text-decoration: none;
+    color:white;
+}
+
+.sidenav {
+    height:100%;
+    width:175px;
+    position:fixed;
+    z-index:1;
+    top:315px;
+    left:0;
+    background-color:#007bff;
+    overflow-x:hidden;
+    padding-top:20px;
+    border-radius:10px;
+    margin:-5px;
+    margin-top:10px;
+}
+
+.sidenav a {
+    display:block;
+    text-decoration: none;
+    color:white;
+    text-align:left;
+    margin:20px;
+}
+
+.customHr {
+    width: 95%;
+    font-size:1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+    background-color:ghostwhite;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin:20px;
+}
+
+#stage {
+    margin: 1em auto;
+    width: 382px;
+    height: 292px;
+  }
+
+  #stage img {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  #stage img:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage img:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage img:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+
+
+
+
+
+
+
+
+
+
